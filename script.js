@@ -1,6 +1,6 @@
 // Function to calculate time remaining until July 7
 function getTimeRemaining() {
-    var july7 = new Date('2024-08-04');
+    var july7 = new Date('2024-09-01');
     var today = new Date();
 
     var timeDiff = july7.getTime() - today.getTime();
